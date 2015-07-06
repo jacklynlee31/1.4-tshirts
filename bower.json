@@ -1,0 +1,17 @@
+{
+  "name": "1.4-tshirts",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jacklynlee31/1.4-tshirts",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "~4.3.0",
+    "competent-meyerweb-reset": "~2.0.20110126"
+  }
+}
