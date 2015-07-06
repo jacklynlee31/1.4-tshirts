@@ -22,9 +22,77 @@ li {
   display:inline-block;
 }
 
-div .footer {
+li.footer-2 {
+  padding:10px;
+}
+
+.footer-2 {
+  border:none;
   display:block;
-  color:red;
+  height:25px;
+}
+
+.refresh {
+  background-color:white;
+  color: #76b6da;
+  border:2px solid #76b6da;
+  padding:5px;
+}
+
+.refresh:hover {
+  background-color: #76b6da;
+  color:white;
+}
+
+.heart {
+  background-color:white;
+  color: #76b6da;
+  border:2px solid #76b6da;
+  padding:5px;
+}
+
+.heart:hover {
+  background-color: #76b6da;
+  color:white;
+}
+
+.size {
+  background-color:white;
+  color: #76b6da;
+  border:2px solid #76b6da;
+  padding:5px;
+  font-family:sans-serif;
+}
+
+.size:hover {
+  background-color: #76b6da;
+  color:white;
+}
+
+.color {
+  background-color:white;
+  color: #76b6da;
+  border:2px solid #76b6da;
+  padding:5px;
+  font-family:sans-serif;
+}
+
+.color:hover {
+  background-color: #76b6da;
+  color:white;
+}
+
+.shop {
+  background-color:white;
+  color: #76b6da;
+  border:2px solid #76b6da;
+  padding:5px;
+  font-family:sans-serif;
+}
+
+.shop:hover {
+  background-color: #76b6da;
+  color:white;
 }
 
 .shirt-1:active {
