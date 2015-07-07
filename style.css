@@ -6,29 +6,38 @@ html {
 }
 .row {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 2em;
 }
 img:nth-child(1) {
   border:3px solid #66cdaa;
-  margin-right: 25px;
+  margin-right: 1em;
 }
 img:nth-child(2) {
   border:3px solid #66cdaa;
-  margin-right: 25px;
+  margin-right: 1em;
 }
 img:nth-child(3) {
   border:3px solid #66cdaa;
 }
+img:nth-child(1):active {
+  content: url(images/purple-back.png)
+}
+img:nth-child(2):active {
+  content: url(images/yellow-back.png)
+}
+img:nth-child(3):active {
+  content: url(images/red-back.png)
+}
 [class*=icons] {
   font-family: fontawesome;
-  font-size: 20px;
+  font-size: 1.25em;
   color: #66cdaa;
   display:inline;
 }
 [class*=icons] > li {
   border: 3px solid #66cdaa;
   display: inline-block;
-  padding:10px;
+  padding:0.5em;
 }
 [class*=icons] > li:hover {
   background-color: #66cdaa;
@@ -39,4 +48,23 @@ img:nth-child(3) {
 }
 .icons-3 {
   padding:4em;
+}
+.icons-drop {
+  list-style: none;
+  font-size: 1em;
+}
+.icons-drop li ul {
+  display: none;
+}
+.icons-drop li ul li {
+  color:#66cdaa;
+  border: 3px solid #66cdaa;
+  background-color: white;
+  padding: .5em;
+  display: inline-block;
+}
+.icons-drop li:hover ul {
+  display: block;
+  position: absolute;
+  bottom: 18em;
 }
