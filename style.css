@@ -1,20 +1,26 @@
 html {
   box-sizing: border-box;
+  text-align: center;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 .row {
-  text-align: center;
-  padding-top: 2em;
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+.third {
+  float: left;
+  width: 33%;
 }
 img:nth-child(1) {
   border:3px solid #66cdaa;
-  margin-right: 1em;
 }
 img:nth-child(2) {
   border:3px solid #66cdaa;
-  margin-right: 1em;
 }
 img:nth-child(3) {
   border:3px solid #66cdaa;
@@ -28,43 +34,47 @@ img:nth-child(2):active {
 img:nth-child(3):active {
   content: url(images/red-back.png)
 }
-[class*=icons] {
+.icons {
   font-family: fontawesome;
   font-size: 1.25em;
   color: #66cdaa;
-  display:inline;
+  padding-top: 1em;
 }
-[class*=icons] > li {
+.icons > li {
   border: 3px solid #66cdaa;
-  display: inline-block;
+  display: inline;
   padding:0.5em;
 }
-[class*=icons] > li:hover {
+.icons > li:hover {
   background-color: #66cdaa;
   color:white;
-}
-.icons-1 {
-  padding:4em;
-}
-.icons-3 {
-  padding:4em;
 }
 .icons-drop {
   list-style: none;
   font-size: 1em;
 }
-.icons-drop li ul {
+.icons-drop ul {
   display: none;
 }
-.icons-drop li ul li {
+.icons-drop li {
   color:#66cdaa;
   border: 3px solid #66cdaa;
   background-color: white;
   padding: .5em;
   display: inline-block;
 }
-.icons-drop li:hover ul {
-  display: block;
+.icons-drop:hover ul {
+  display: inline-block;
   position: absolute;
-  bottom: 18em;
+  bottom:19em;
+}
+
+@media (max-width:480) {
+  body {
+    width:100%;
+  }
+  img {
+    width:100%;
+    height: auto;
+  }
 }
