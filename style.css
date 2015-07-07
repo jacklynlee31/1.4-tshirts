@@ -4,148 +4,39 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-body {
-  text-align:center;
-  padding-top:20px;
+.row {
+  text-align: center;
+  padding-top: 20px;
 }
-
-.grid {
-  display:inline-block;
-  padding:20px;
+img:nth-child(1) {
+  border:3px solid #66cdaa;
+  margin-right: 25px;
 }
-
-li.footer-2 {
+img:nth-child(2) {
+  border:3px solid #66cdaa;
+  margin-right: 25px;
+}
+img:nth-child(3) {
+  border:3px solid #66cdaa;
+}
+[class*=icons] {
+  font-family: fontawesome;
+  font-size: 20px;
+  color: #66cdaa;
+  display:inline;
+}
+[class*=icons] > li {
+  border: 3px solid #66cdaa;
+  display: inline-block;
   padding:10px;
 }
-
-.refresh {
-  background-color:white;
-  color: #76b6da;
-  border:2px solid #76b6da;
-  padding:5px;
-  height: 100px;
-  width: 100px;
-  font-size: 20px;
-}
-
-.refresh:hover {
-  background-color: #76b6da;
+[class*=icons] > li:hover {
+  background-color: #66cdaa;
   color:white;
 }
-
-.heart {
-  background-color:white;
-  color: #76b6da;
-  border:2px solid #76b6da;
-  padding:5px;
-  font-size: 20px;
+.icons-1 {
+  padding:4em;
 }
-
-.heart:hover {
-  background-color: #76b6da;
-  color:white;
-}
-
-.size {
-  background-color:white;
-  color: #76b6da;
-  border:2px solid #76b6da;
-  padding:5px;
-  font-family:sans-serif;
-  font-size: 20px;
-}
-
-.size:hover {
-  background-color: #76b6da;
-  color:white;
-}
-
-.color li {
-  display: none;
-}
-
-.color {
-  background-color:white;
-  color: #76b6da;
-  border:2px solid #76b6da;
-  padding:5px;
-  font-family:sans-serif;
-  font-size: 20px;
-}
-
-.color:hover {
-  background-color: #76b6da;
-  color:white;
-  height:auto;
-}
-
-.shop {
-  background-color:white;
-  color: #76b6da;
-  border:2px solid #76b6da;
-  padding:5px;
-  font-family:sans-serif;
-  font-size: 20px;
-}
-
-.shop:hover {
-  background-color: #76b6da;
-  color:white;
-}
-
-.drop {
-  background-color:white;
-  color: #76b6da;
-  border:2px solid #76b6da;
-  padding:5px;
-  font-family:sans-serif;
-  font-size: 20px;
-  display:inline;
-}
-.drop li {
-  display:inline;
-}
-.drop:hover {
-  background-color: #76b6da;
-  color:white;
-}
-
-.drop ul li {
-  display:none;
-}
-
-.drop li:hover ul {
-  display:block;
-}
-
-.footer-3 {
-  height:20px;
-  width:290px;
-  border:none;
-  font-family:Helvetica;
-}
-
-.title {
-  color:#76b6da;
-  float:left;
-  border:none;
-}
-
-.price {
-  color:#76b6da;
-  float:right;
-  font-weight:bold;
-}
-
-.shirt-1:active {
-  content: url(images/purple-back.png);
-}
-
-.shirt-2:active {
-  content: url(images/yellow-back.png);
-}
-
-.shirt-3:active {
-  content: url(images/red-back.png);
+.icons-3 {
+  padding:4em;
 }
