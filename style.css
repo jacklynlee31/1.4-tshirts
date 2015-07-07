@@ -42,7 +42,7 @@ img:nth-child(3):active {
 }
 .icons > li {
   border: 3px solid #66cdaa;
-  display: inline;
+  display: inline-block;
   padding:0.5em;
 }
 .icons > li:hover {
@@ -66,7 +66,7 @@ img:nth-child(3):active {
 .icons-drop:hover ul {
   display: inline-block;
   position: absolute;
-  bottom:19em;
+  bottom:8em;
 }
 
 @media (max-width:480) {
