@@ -70,6 +70,8 @@ img:nth-child(3):active {
   bottom:16em;
 }
 
+/* Start responsive */
+
 @media (max-width:480) {
   body {
     width:100%;
