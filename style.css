@@ -1,6 +1,83 @@
 html {
   box-sizing: border-box;
+  text-align: center;
+  padding-top: 3em;
 }
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.row {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+.third {
+  float: left;
+  width: 33%;
+}
+img:nth-child(1) {
+  border:3px solid #66cdaa;
+}
+img:nth-child(2) {
+  border:3px solid #66cdaa;
+}
+img:nth-child(3) {
+  border:3px solid #66cdaa;
+}
+img:nth-child(1):active {
+  content: url(images/purple-back.png)
+}
+img:nth-child(2):active {
+  content: url(images/red-back.png)
+}
+img:nth-child(3):active {
+  content: url(images/yellow-back.png)
+}
+.icons {
+  font-family: fontawesome;
+  font-size: 1.25em;
+  color: #66cdaa;
+  padding-top: 1em;
+}
+.icons > li {
+  border: 3px solid #66cdaa;
+  display: inline-block;
+  padding:0.5em;
+}
+.icons > li:hover {
+  background-color: #66cdaa;
+  color:white;
+}
+.icons-drop {
+  list-style: none;
+  font-size: 1em;
+}
+.icons-drop ul {
+  display: none;
+}
+.icons-drop li {
+  color:#66cdaa;
+  border: 3px solid #66cdaa;
+  background-color: white;
+  padding: .5em;
+  display: inline-block;
+}
+.icons-drop:hover ul {
+  display: inline-block;
+  position: absolute;
+  bottom:16em;
+}
+
+/* Start responsive */
+
+@media (max-width:480) {
+  body {
+    width:100%;
+  }
+  img {
+    width:100%;
+    height: auto;
+  }
 }
